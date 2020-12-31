@@ -1,18 +1,16 @@
 .. meta::
-   :description: Guide for merchants getting started with Dash. Online and offline payment processors
-   :keywords: dash, pos, merchants, payment processor, store, wordpress, woocommerce, coinpayments, point of sale
+   :description: Guide for merchants getting started with MarteX. Online and offline payment processors
+   :keywords: martex, pos, merchants, payment processor, store, wordpress, woocommerce, coinpayments, point of sale
 
 .. _merchants:
-
-.. include:: <isopub.txt>
 
 ===============
 Getting Started
 ===============
 
-Dash welcomes new merchants and supports integration through a
+MarteX welcomes new merchants and supports integration through a
 standardised onboarding process. It's easy to begin accepting payments
-in Dash and enjoy the following benefits:
+in MarteX and enjoy the following benefits:
 
 - Settlement within seconds and clearance within minutes
 - Ability to accept payments from any market around the world
@@ -28,55 +26,28 @@ Larger integrations may require some customisation or cooperation with a
 specialist payment processor such as `ePaymints <https://epaymints.com/>`__.
 This documentation also describes the :ref:`administrative
 <merchants-administrative>` and  :ref:`technical <integration>` steps required
-to integrate various Dash services.
+to integrate various MarteX services.
 
-Any Dash received in payment can be automatically converted to the fiat
+Any MarteX received in payment can be automatically converted to the fiat
 currency of your choice using services such as `Uphold
 <https://uphold.com>`_. Simply select the card for the target currency
 and click **Add funds** -> **With cryptocurrency**. Any cryptocurrency
 deposited to this address will immediately be converted to the target
 fiat currency at the time of deposit.
 
-Many major merchants accept Dash - check out `Bitrefill
+Many major merchants accept MarteX - check out `Bitrefill
 <https://www.bitrefill.com>`__ or `CheapAir
 <https://www.cheapair.com>`__ for examples of what merchant integration
-can look like. Once you are up and running accepting Dash, consider
-adding your business to the directory maintained at `Discover Dash
+can look like. Once you are up and running accepting MarteX, consider
+adding your business to the directory maintained at `Discover MarteX
 <https://discoverdash.com>`_ for increased visibility.
 
 Payment Processors
 ==================
 
-This section lists known payment processors supporting Dash and the
+This section lists known payment processors supporting MarteX and the
 business platforms they support. Please conduct thorough research before
 choosing a payment provider to ensure your needs will be met.
-
-alt thirty six
-  .. image:: img/alt36.svg
-     :width: 200px
-     :align: right
-     :target: https://www.alt36.com
-
-  https://www.alt36.com
-
-  Alt Thirty Six allows any business (including those involved in
-  cannabis) to accept digital payments at the point of sale and online
-  using Dash or USD.
-
-
-Anypay
-  .. image:: img/anypay.svg
-     :width: 200px
-     :align: right
-     :target: https://anypayinc.com
-
-  https://anypayinc.com
-
-  Anypay offers easy, professional tools for retail, as well as Dash
-  rewards for users shopping at your store. Anypay is enjoys broad
-  support from the Dash community, works to bring you new customers and
-  is cheap and easy to set up.
-
 
 BTCPay Server
   .. image:: img/btcpayserver.svg
@@ -88,20 +59,7 @@ BTCPay Server
 
   BTCPay Server is a free, self-hosted and fully open-source
   cryptocurrency payment processor designed with security, privacy and
-  censorship-resistance at its core.
-
-
-CDPay
-  .. image:: img/cdpay.png
-     :width: 120px
-     :align: right
-     :target: https://www.cdpay.eu
-
-  https://www.cdpay.eu
-
-  CDPay offers API to accept Dash on your website, as well as an
-  automated fiat exchange service to convert the payments you receive to
-  EUR or CZK.
+  censorship-resistance at its core. You can configure it to make it work with martexcoin.
 
 
 Coinify
@@ -130,57 +88,7 @@ CoinPayments
   CoinPayments is an integrated payment gateway with a `wide range of
   plugins <https://www.coinpayments.net/merchant-tools>`__ available for
   popular webcarts, as well as fiat settlement in the US and Europe.
-
-
-Coinremitter
-  .. image:: img/coinremitter.png
-     :width: 200px
-     :align: right
-     :target: https://coinremitter.com
-
-  https://coinremitter.com
-
-  Coinremitter is a secure and reliable payment gateway with no monthly
-  fees. Features include built-in exchange, automatic withdrawals and no
-  ID or bank account required.
-
-
-CoinsPaid
-  .. image:: img/coinspaid.svg
-     :width: 200px
-     :align: right
-     :target: https://coinspaid.com
-
-  https://coinspaid.com
-
-  Coinspaid offers a white label backoffice payments solution with
-  on-the-fly Fiat (EUR) conversion and instant transaction
-  confirmations.
-
-CopPay
-  .. image:: img/coppay.svg
-     :width: 200px
-     :align: right
-     :target: https://coppay.io
-
-  https://coppay.io
-
-  CopPay allows you to accept Dash and receive EUR, GBP and USD,
-  eliminating volatility risks. CopPay is absolutely free with 0%
-  transaction fee for merchants.
-
-
-EletroPay
-  .. image:: img/eletropay.png
-     :width: 200px
-     :align: right
-     :target: https://eletropay.com
-
-  https://eletropay.com
-
-  EletroPay is a hardware point of sale device with an ePaper display
-  and built-in receipt printer designed to bring businesses into the
-  digital economy in style.
+  It could accepts martexcoin in the future.
 
 
 ePaymints
@@ -196,32 +104,6 @@ ePaymints
   chargebacks.
 
 
-GB CAS
-  .. image:: img/gbcortexpay.png
-     :width: 80px
-     :align: right
-     :target: https://www.generalbytes.com/en/products/cas-server
-
-  https://www.generalbytes.com/en/products/cas-server
-
-  Take the professional approach and start accepting Dash with a
-  dedicated CortexPay terminal and GB CAS. This software can also be
-  used to sell Dash to clients visiting your location.
-
-
-GoURL
-  .. image:: img/gourl.png
-     :width: 200px
-     :align: right
-     :target: https://gourl.io
-
-  https://gourl.io
-
-  GoURL offers a range of plugins and APIs to accept Dash online. White
-  label solutions to process payments with your logo and on your server
-  are also available.
-
-
 iQCashNow
   .. image:: img/iqcashnow.png
      :width: 120px
@@ -233,45 +115,6 @@ iQCashNow
   iQCashNow offers ATMs and mobile POS terminal systems that combine
   traditional payment methods and crypto-payments into a unique complete
   package of software, hardware and services.
-
-
-NOWPayments
-  .. image:: img/nowpayments.png
-     :width: 200px
-     :align: right
-     :target: https://nowpayments.io
-
-  https://nowpayments.io
-
-  NOWPayments is an easy way to accept cryptocurrency payments with
-  native integration into your platform or a neat widget. Auto coin
-  conversion keeps you safe from any dramatic rate fluctuations.
-
-
-Paytomat
-  .. image:: img/paytomat.svg
-     :width: 200px
-     :align: right
-     :target: https://paytomat.com
-
-  https://paytomat.com
-
-  Paytomat provides software for integration into existing merchant
-  systems without the need to purchase additional hardware or install
-  third-party software.
-
-
-PumaPay
-  .. image:: img/pumapay.png
-     :width: 200px
-     :align: right
-     :target: https://pumapay.io
-
-  https://pumapay.io
-
-  PumaPay provides a fast, efficient and inexpensive alternative to
-  credit cards to empower your digital customer. We provide the all the
-  tools enabling you to start accepting cryptopayments today.
 
 
 QR.cr
@@ -300,20 +143,6 @@ Salamantex
   mobile devices.
 
 
-Spark
-  .. image:: img/spark.png
-     :width: 200px
-     :align: right
-     :target: https://get-spark.com
-
-  https://get-spark.com
-
-  Spark is simple, 100% open source software for accepting Dash
-  payments. Designed from the ground up to be familiar and with wide
-  community support, all keys and funds remain in your control at all
-  times.
-
-
 VegaPay
   .. image:: img/vegapay.png
      :width: 100px
@@ -328,31 +157,19 @@ VegaPay
   business solutions.
 
 
-Xpay
-  .. image:: img/xpay.png
-     :width: 200px
-     :align: right
-     :target: https://xpay.cash
-
-  https://xpay.cash
-
-  Xpay is a popular point of sale device in Venezuela and Colombia,
-  allowing you to quickly accept Dash using QR codes.
-
-
 Installation Examples
 =====================
 
 This section contains worked examples of how to install, configure and
 process your first payment using the payment processors listed in this
-documentation.
+documentation. Some examples are using Dash cryptocurrency.
 
 WooCommerce and CoinPayments.net
 --------------------------------
 
 If your online store is built on WooCommerce, you can simply install
 CoinPayments as an additional payment gateway and immediately begin
-accepting Dash. This guide assumes you have already `installed Wordpress
+accepting MarteX. This guide assumes you have already `installed Wordpress
 <https://codex.wordpress.org/Installing_WordPress>`_, `installed
 WooCommerce <https://docs.woocommerce.com/document/installing-
 uninstalling-woocommerce/>`_ and `created at least one product
@@ -377,7 +194,7 @@ from the WordPress website as a zip file and upload it using the
 Next, go to CoinPayments.net and `sign up
 <https://www.coinpayments.net/register>`_ to create an account. Once you
 are logged in, go to **Account -> Coin Acceptance Settings** and enable
-Dash, as well as optionally entering a withdrawal address. Next, go to
+MarteX, as well as optionally entering a withdrawal address. Next, go to
 **Account -> Account Settings** and copy **Your Merchant ID** from the
 **Basic Settings** area into a text file. Then navigate to the
 **Merchant Settings** section and enter a long, random series of
@@ -395,11 +212,11 @@ fields as shown below. Click **Save Changes** when you are ready.
 
    Configuring the CoinPayments.net WooCommerce plugin
 
-Your customers will now see an option to pay with Dash when completing
+Your customers will now see an option to pay with MarteX when completing
 the checkout process for an order. The payment will be processed by
 CoinPayments.net, and you will receive emails detailing each purchase
 procedure. You can choose how often you want to withdraw your payments,
-to which Dash address and various other options in the CoinPayments
+to which MarteX address and various other options in the CoinPayments
 administration section. See the `CoinPayments Documentation
 <https://www.coinpayments.net/help>`_ or `Merchant Tools
 <https://www.coinpayments.net/merchant-tools>`_ for more information.
@@ -421,13 +238,13 @@ Point-of-Sale with Anypay
 -------------------------
 
 `Anypay.global <https://anypayinc.com>`_ allows you to quickly start
-accepting point-of-sale payments in Dash at a physical store. The
+accepting point-of-sale payments in MarteX at a physical store. The
 service functions as a simple website that you load on any internet-
 connected and touch-enabled device, such as a smartphone or tablet.
 
 Begin by registering an account with Anypay. You will be asked to
 specify an email address and password. Once you are signed in, you must
-add a Dash payment withdrawal address.
+add a MarteX payment withdrawal address.
 
 .. image:: img/anypay-register.png
    :width: 200px
@@ -464,15 +281,15 @@ Point-of-Sale with Spark
 ------------------------
 
 `Spark Payments <https://get-spark.com>`__ allows you to quickly start
-accepting point-of-sale payments in Dash at a physical store. The system
+accepting point-of-sale payments in MarteX at a physical store. The system
 works as an app, and is available for Android, macOS, Windows and Linux,
 with an iOS progressive web app (`PWA
 <https://en.wikipedia.org/wiki/Progressive_Web_Apps>`_) in development.
 
-The project is an external terminal application for processing Dash
+The project is an external terminal application for processing MarteX
 payments in brick and mortar stores. The merchant types the sale amount
 in their local currency (94 currencies supported), the application will
-generate a QR code sale for the proper amount of Dash for the customer
+generate a QR code sale for the proper amount of MarteX for the customer
 to scan. Then the terminal will provide feedback on the status of the
 payment (received, timed out, partial, instantsend or regular), and if
 set up - fiat conversion through `uphold.com <https://uphold.com>`_. A
@@ -483,12 +300,12 @@ and
 `German <https://github.com/dashpay/docs/raw/master/merchants/Spark-Payments-Uphold-German.pdf>`__.
 
 To use Spark, open the app on your device. If this is the first time you
-are using the app, you will need to specify a Dash address to receive
+are using the app, you will need to specify a MarteX address to receive
 payments from the system, as well as your chosen fiat currency. You can
 change this information at any time from the menu. To generate a payment
 invoice, enter the amount in fiat currency. Spark will generate a QR
 code containing your specified address and the requested amount,
-denominated in Dash. The customer scans the QR code, and the app will
+denominated in MarteX. The customer scans the QR code, and the app will
 display a visual indication when payment is complete.
 
 .. figure:: img/spark-pay.png
@@ -498,6 +315,6 @@ display a visual indication when payment is complete.
 
 Payment systems like Anypay and Spark can be integrated with your
 existing terminal and/or accounting software (such as Square Register,
-by recording sales invoiced in Dash as an **Other Payment Type** in the
-system. This allows you to keep track of your Dash income as easily as
+by recording sales invoiced in MarteX as an **Other Payment Type** in the
+system. This allows you to keep track of your MarteX income as easily as
 if you were accepting cash.

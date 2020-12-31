@@ -1,0 +1,1 @@
+# In this folder are some instructions of how companies can use martexcoin

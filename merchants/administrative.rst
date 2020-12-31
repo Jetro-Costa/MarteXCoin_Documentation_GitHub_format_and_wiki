@@ -1,6 +1,6 @@
 .. meta::
-   :description: Administrative guides for merchants using Dash. Onboarding and immediate currency conversion at time of sale
-   :keywords: dash, pos, merchants, currency, conversion, onboarding, legal, promotion
+   :description: Administrative guides for merchants using MarteX. Onboarding and immediate currency conversion at time of sale
+   :keywords: martex, pos, merchants, currency, conversion, onboarding, legal, promotion
 
 .. _merchants-administrative:
 
@@ -8,10 +8,10 @@
 Administrative Processes
 ========================
 
-It's easy to get started integrating Dash, but you will need to make
+It's easy to get started integrating MarteX, but you will need to make
 some decisions about whether you plan to convert your income earned in
-Dash into your local fiat currency, or if you prefer to hold some or all
-of it in Dash. Most payment processors offer a range of fiat conversion
+MarteX into your local fiat currency, or if you prefer to hold some or all
+of it in MarteX. Most payment processors offer a range of fiat conversion
 options, although various fees and limits may be applicable.
 
 
@@ -19,27 +19,26 @@ Onboarding Process
 ==================
 
 New merchants typically go through the following steps when joining the
-Dash ecosystem:
+MarteX ecosystem:
 
-#. Set up a Dash wallet
+#. Set up a MarteX wallet
 #. Identify an appropriate payment processor
 #. Decide on how and when to convert funds
 #. Implementation and testing
 #. Release and marketing
-#. Integration on `DiscoverDash <https://discoverdash.com>`_
 
 
-Promoting Dash
-==============
+Promoting MarteX
+================
 
 A wide range of ready-to-go visual products are available to help you
-promote Dash as a payment method to your customers. This includes
+promote MarteX as a payment method to your customers. This includes
 promotional graphics and stickers, fonts for consistent visual design
-and guidelines on how to use the Dash visual identity. See the
-:ref:`Marketing <marketing>` section for more information.
+and guidelines on how to use the MarteX visual identity. See the
+`Marketing </marketing.rst>`_ section for more information.
 
 The reduced fees may also offer an additional incentive for your
-customers to pay with Dash, particularly in businesses with high cash
+customers to pay with MarteX, particularly in businesses with high cash
 handling fees or where it is necessary to add a fee to process credit
 card transactions.
 
@@ -61,9 +60,9 @@ specified percentage of received payments into a range of fiat
 currencies for withdrawal. Others such as `CoinPayments
 <https://www.coinpayments.net>`_ offer the ability to diversify your
 payments into a range of different cryptocurrencies, but require you to
-set up automatic withdrawals to an :ref:`exchange <exchanges>` for
+set up automatic withdrawals to an `exchange </introduction/how-to-buy.rst#exchanges>`_ for
 conversion to fiat currency. Finally, services such as `Uphold
-<https://uphold.com>`_ allow you to convert your Dash payments between
+<https://uphold.com>`_ allow you to convert your MarteX payments between
 various currencies and commodities very easily, and even offer automated
 investment services.
 

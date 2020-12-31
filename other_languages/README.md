@@ -1,0 +1,1 @@
+In this folder are the full documentation in anothers languages.

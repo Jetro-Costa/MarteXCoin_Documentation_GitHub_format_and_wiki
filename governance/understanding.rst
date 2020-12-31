@@ -4,9 +4,9 @@
 
 .. _understanding-governance:
 
-=============================
+===============================
 Understanding MarteX Governance
-=============================
+===============================
 
 One of the greatest challenges of building a cryptocurrency platform is
 ensuring you create a decentralized system of governance to manage,

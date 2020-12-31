@@ -73,4 +73,4 @@ Contents
 
    `marketing <marketing.rst>`_
 
-   `legal<./legal.rst>`_
+   `legal <./legal.rst>`_
