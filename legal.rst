@@ -9,7 +9,7 @@ Legal
 =====
 
 How the Law Applies to MarteX
-===========================
+=============================
 
 The purpose of the MarteX DAO is to promote, protect and standardize MarteX.
 In the course of our mission, we have received inquiries into how some
@@ -42,10 +42,10 @@ treat as regular income the fair market value of the block reward.
 MarteX Collateral
 ^^^^^^^^^^^^^^^^^
 
-A MarteX user may demonstrate to the network his or her control over 1,000
-DASH in order to run a masternode. These tokens never leave the user’s
+A MarteX user may demonstrate to the network his or her control over 5,000
+MXT in order to run a masternode. These tokens never leave the user’s
 control. If at any point during the user’s tenure as a masternode
-operator, the user disposes of any or all of the 1,000 DASH, the network
+operator, the user disposes of any or all of the 5,000 MXT, the network
 automatically strips the user of his or her status as a masternode.
 Under the US Internal Revenue Code, gain or loss is realized only on the
 “sale or exchange” of property. The term “sale” generally means the
@@ -54,8 +54,8 @@ A number of factors typically are considered to determine whether a sale
 has occurred, the most important being whether the benefits and burdens
 of ownership of the transferred property have passed from the transferor
 to the transferee. In MarteX, the masternode operator retains control of
-the 1,000 DASH and simply demonstrates that control to the network.
-Therefore, the holding of the 1,000 DASH for purposes of qualifying as a
+the 5,000 MXT and simply demonstrates that control to the network.
+Therefore, the holding of the 5,000 MXT for purposes of qualifying as a
 masternode operator should not cause a taxable event to occur because
 the user has not transferred any of the benefits and burdens of
 ownership.
@@ -63,11 +63,11 @@ ownership.
 Capital Gains
 ^^^^^^^^^^^^^
 
-Assuming that the 1,000 DASH are sold, whether that MarteX is a “capital
+Assuming that the 5,000 MXT are sold, whether that MarteX is a “capital
 asset” will determine the tax treatment of the sale. Stocks, bonds and
 other investment property for example, are generally treated as capital
 assets. Inventory, depreciable property, and stock in trade, though, are
-not. Assuming the masternode operator held the 1,000 DASH either for
+not. Assuming the masternode operator held the 5,000 MXT either for
 investment purposes or for purposes of qualifying as a masternode
 operator, the IRS would likely treat gain or loss on the sale of those
 MarteX tokens as capital in nature. Therefore, MarteX held for a long
@@ -144,7 +144,7 @@ Exchange Liability
 ------------------
 
 Exchanges have asked whether they can be held liable for criminal
-activity connected with MarteX PrivateSend transactions.
+activity connected with MarteX AnonSend transactions.
 
 The Bank Secrecy Act (BSA) is the law that primarily governs exchanges
 in the United States. The BSA does not contain any prohibition on
@@ -154,21 +154,21 @@ will enter into lines of business with new risks. This risk-based
 approach requires, at the outset, an independent risk assessment. By and
 large, the risks faced by exchanges who begin to support MarteX will be
 similar to the risks associated with other virtual currencies. One
-significant difference concerns PrivateSend transactions, and we focus
+significant difference concerns AnonSend transactions, and we focus
 on this difference below:
 
-- PrivateSend transactions obfuscate the source and destination
+- AnonSend transactions obfuscate the source and destination
   addresses of funds, thus blockchain forensic techniques like
   clustering analysis may be less effective. To the extent that
   exchanges rely on such blockchain forensics tools for their
   information collection, reporting and reporting obligations under the
   BSA, they should consider alternative means.
 
-- PrivateSend transactions are used for legitimate purposes and are
+- AnonSend transactions are used for legitimate purposes and are
   often required to achieve personal or commercial privacy for sensitive
-  transactions. The use of PrivateSend transactions is not inherently
+  transactions. The use of AnonSend transactions is not inherently
   suspicious. Combination with other factors, including those identified
-  in the exchange’s own risk assessment, may raise PrivateSend
+  in the exchange’s own risk assessment, may raise AnonSend
   transactions to the level of suspicious activity.
 
 - Exchanges should consider revising their risk assessments and AML
@@ -179,9 +179,9 @@ on this difference below:
   and explanation in SARs.
 
 - When conducting Enhanced Due Diligence on customers and transactions,
-  exchanges should account for the presence of PrivateSend transactions
+  exchanges should account for the presence of AnonSend transactions
   and update their AML policies accordingly. For example, identifying
-  counterparties to a PrivateSend transaction may be more difficult than
+  counterparties to a AnonSend transaction may be more difficult than
   identifying counterparties to transactions in other virtual currencies
   when relying on blockchain forensics.
 
@@ -190,17 +190,15 @@ AnonSend Legal Position
 
 MarteX’s transaction rules are identical to Bitcoin, and therefore for
 regulatory and compliance purposes MarteX can and should be treated
-identically to Bitcoin. `BlockchainIntel <https://www.blockchainintel.com/>`__ 
-and `Coinfirm <https://www.coinfirm.com/>`__ are KYC/AML service
-providers that offer services covering the MarteX blockchain.
-
-This PDF document offers a full overview of the `MarteX PrivateSend Legal Position <https://media.dash.org/wp-content/uploads/MarteX-PrivateSend-Legal-Position-EN.pdf>`__.
+identically to Bitcoin.
 
 ATM & Fiat Compliance
 =====================
 
 Introduction
 ------------
+
+All this part untill the end is same as Dash Pay documents.
 
 An aspect that required legal research is what are the compliance
 requirements to facilitate MarteX-fiat exchange. This can be in the form
@@ -252,7 +250,7 @@ to run services without a compliance program or don't need one, we
 completely respect that too.
 
 MarteX ATM Compliance Program
----------------------------
+-----------------------------
 
 #. Please first read the `Quick Guide To Operating a Virtual Currency
    Kiosk <https://github.com/dashpay/docs/blob/master/binary

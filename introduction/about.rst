@@ -10,8 +10,8 @@ What is MarteX?
 
 MarteX aims to be the most user-friendly and scalable payments-focused
 cryptocurrency in the world. The MarteX network features `instant
-transaction confirmation <introduction/features.rst>`_, double spend protection,
-optional `anonimous <introduction/features.rst>`_ equal to that of physical cash, a
+transaction confirmation <./features.rst>`_, double spend protection,
+optional `anonymous <./features.rst>`_ equal to that of physical cash, a
 `self-governing, self-funding model <decentralized-governance>`_ 
 driven by `incentivized full nodes <masternode-network>`_ and a 
 `clear roadmap <https://martexcoin.org>`_ for on-chain scaling to

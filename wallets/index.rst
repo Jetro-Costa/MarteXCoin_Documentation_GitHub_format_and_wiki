@@ -21,7 +21,7 @@ still remaining useful for day-to-day needs.
 For safety, it is not recommended to store significant funds on
 exchanges or software wallets. If you are holding cryptocurrency worth
 more than the device you use to store it, you should purchase a
-:ref:`hardware wallet <hardware-wallets>`.
+`hardware wallet <./index.rst#Hardware-Wallets>`_.
 
 
 .. _martex-core-wallet:
@@ -44,32 +44,33 @@ and Windows.
 
 Features:
 
--  PrivateSend
--  InstantSend
+-  AnonSend
+-  FastSend
 -  Wallet encryption
 -  Coin control and fee control
 -  QR code generation and address book
 -  Masternode commands and voting
 -  Automated backup
 -  Debug console
+-  All MarteX Core functions
 
 Available documentation:
 
-   dashcore/installation.rst
+   `MarteXcore installation <MarteXcore/installation.rst>`_
 
-   dashcore/interface.rst
+   `MarteXcore interface <MarteXcore/interface.rst>`_
 
-   dashcore/send-receive.rst
+   `MarteXcore send-receive <MarteXcore/send-receive.rst>`_
 
-   dashcore/privatesend-instantsend.rst
+   `MarteXcore anonsend-fastsend <MarteXcore/anonsend-fastsend.rst>`_
 
-   dashcore/backup.rst
+   `MarteXcore backup <MarteXcore/backup.rst>`_
 
-   dashcore/cmd-rpc.rst
+   `MarteXcore cmd-rpc <MarteXcore/cmd-rpc.rst>`_
 
-   dashcore/advanced.rst
+   `MarteXcore advanced <MarteXcore/advanced.rst>`_
 
-.. figure:: dashcore/img/windows/106329009.png
+.. figure:: martexcore/images/windows/106329009.png
    :width: 400 px
 
    MarteX Core Wallet
@@ -85,23 +86,22 @@ display QR codes for quick transfers, backup and restore your wallet,
 keep an address book of frequently used addresses, pay with NFC, sweep 
 paper wallets and more.
 
-.. toctree::
-   :includehidden:
-   :maxdepth: 1
+   `android installation <android/installation.rst>`_
 
-   android/installation.rst
-   android/getting-started.rst
-   android/advanced-functions.rst
+   `android getting-started <android/getting-started.rst>`_
 
-.. image:: android/img/android1.png
+   `android advanced-functions <android/advanced-functions.rst>`_
+
+
+.. image:: android/images/android1.png
     :width: 160 px
-.. image:: android/img/android2.png
+.. image:: android/images/android2.png
     :width: 160 px
 
 *MarteX Android Wallet*
 
 
-.. _dash-ios-wallet:
+.. _martex-ios-wallet:
 
 MarteX iOS Wallet
 =================
@@ -112,17 +112,15 @@ features such as InstantSend sending and receiving. You can also scan
 and display QR codes for quick transfers and backup your wallet using a
 secure recovery phrase.
 
-.. toctree::
-   :includehidden:
-   :maxdepth: 1
+   `ios installation <ios/installation.rst>`_
 
-   ios/installation.rst
-   ios/getting-started.rst
-   ios/advanced-functions.rst
+   `ios getting-started <ios/getting-started.rst>`_
 
-.. image:: ios/img/ios1.png
+   `ios advanced-functions <ios/advanced-functions.rst>`_
+
+.. image:: ios/images/ios1.png
     :width: 160 px
-.. image:: ios/img/ios2.png
+.. image:: ios/images/ios2.png
     :width: 160 px
 
 *MarteX iOS Wallet*
@@ -138,15 +136,12 @@ to generate, encrypt and secure the keys to a single MarteX address on a
 clean computer without ever connecting to the internet. Perfect for long
 term secure storage.
 
-.. toctree::
-   :maxdepth: 1
+   `parper wallet <paper.rst>`_
 
-   paper.rst
-
-.. figure:: img/paper-addresses.png
+.. figure:: images/paper-addresses.png
    :width: 400 px
 
-   MarteX Paper Wallet
+   `MarteX Paper Wallet <paper.rst>`_
 
 
 .. _hardware-wallets:
@@ -185,12 +180,7 @@ MarteX. Many third party wallets support multiple different
 cryptocurrencies at the same time, or integrate instant cryptocurrency
 exchanges.
 
-   `Zcore adroid wallet <zcore/README.md>`_
-
-.. figure:: img/edge-wallet.png
-   :width: 400 px
-
-   Edge Wallet
+   `Zcore adroid wallet <Zcore/README.md>`_
 
 
 .. _web-wallets:
@@ -200,38 +190,23 @@ Web Wallets
 
 Web wallets are services which keep a MarteX balance for you, while
 maintaining control of the private keys on your behalf. Any MarteX stored
-on :ref:`exchanges <exchanges>` falls under this category, but there are
+on `exchanges <./how-to-buy.rst#exchanges>`_ falls under this category, but there are
 also some services able to store MarteX for you through simple
 Google/Facebook login systems. Be extremely careful with web storage, as
 your MarteX is only as secure as the reputation of the company storing it
-for you. A particular exception is MyDashWallet.org, which provides a
-secure web interface to the MarteX blockchain while leaving you with full
-control of your private keys.
+for you.
 
-.. toctree::
-   :maxdepth: 1
-
-   web.rst
-
-.. figure:: img/mydashwallet-opened.png
-   :width: 400 px
-
-   My MarteX Wallet
+At this momment, we do not know any servive that provides Web Wallets.
 
 
-Text Wallets
-============
+Telegram Wallets
+================
 
-Text wallets (or SMS wallets) allow users without smartphones or
-internet access to transact in MarteX using text messages on simple
-feature phones. Innovative shortcodes, usually in collaboration with
-national mobile service providers, make it relatively simple to create
-transactions to both send and receive MarteX.
+Telegram wallets are services whice keep your MarteX balance for you, while
+do not maintaining control of the private keys on your behalf. This services
+uses telegram bots and third party serves; take care wen using it!
 
-.. toctree::
-   :maxdepth: 1
-
-   text.rst
+At this momment, we do not know any servive that provides Telegram Wallets.
 
 
 Wallet Guides
@@ -240,8 +215,6 @@ Wallet Guides
 Documentation in this section describes common tasks and questions
 relating to all wallets.
 
-.. toctree::
-   :maxdepth: 1
+   `recovery <recovery.rst>`_
 
-   recovery.rst
-   signing.rst
+   `signing <signing.rst>`_

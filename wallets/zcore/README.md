@@ -1,1 +1,0 @@
-# In this folder are files about zocore Android wallet

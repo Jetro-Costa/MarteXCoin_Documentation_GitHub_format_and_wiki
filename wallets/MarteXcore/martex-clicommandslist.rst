@@ -1,4 +1,4 @@
-MarteX Core RPC client version v4.0.3.3-ff60810-dirty
+MarteX Core RPC client version v4.0.4.3-cbee601-dirty
 
 Usage:
   martex-cli [options] <command> [params]  Send command to MarteX Core
@@ -54,4 +54,3 @@ Chain selection options:
   -stdin
        Read extra arguments from standard input, one per line until EOF/Ctrl-D
        (recommended for sensitive information such as passphrases)
-

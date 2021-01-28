@@ -1,0 +1,1 @@
+# In this folder are files about Zcore Android wallet

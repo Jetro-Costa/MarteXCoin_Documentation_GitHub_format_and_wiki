@@ -81,14 +81,6 @@ capitalization, traded volume and recent price performance. A number
 of advanced features to research cryptocurrency projects and exchanges
 are also available.
 
-Cryptoradar
-
-https://cryptoradar.co
-
-Cryptoradar is a real-time cryptocurrency marketplace price comparison
-and review platform. The website compares dozens of Dash markets based
-on prices, fees, payment methods, reviews and more.
-
 CoinMarketCap
 
 https://coinmarketcap.com
@@ -141,12 +133,6 @@ In addition to buying and selling on p2p!
 
 Over the Counter
 ================
-
-SPERO EXCHANGE
-
-https://exchange.sperocoin.org/markets/mxtbtc
-
-The SeroCoin community-created Exchange.
 
 CREX24
 

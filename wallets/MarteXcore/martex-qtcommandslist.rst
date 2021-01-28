@@ -1,4 +1,4 @@
-MarteX Core version v4.0.3.3-ff60810-dirty (64-bit)
+MarteX Core version v4.0.4.3-cbee601-dirty (64-bit)
 Usage:
   martex-qt [command-line options]                     
 
@@ -25,7 +25,7 @@ Options:
        If this block is in the chain assume that it and its ancestors are valid
        and potentially skip their script verification (0 to verify all,
        default:
-       6f66556bee8ed458ba19a63f2cc5e4dc6ad589c83a268432bec7a0178966ca71,
+       1e4c89904d231fbb61c9d35a8730ca1055fa39c872d8913a6e29d5c92b82268d,
        testnet:
        8ad40d557632ce92ac361c5c8407a2364431c94167e52e9f4f23d09b0161e379)
 
@@ -534,5 +534,3 @@ UI Options:
 
   -resetguisettings
        Reset all settings changed in the GUI
-
-

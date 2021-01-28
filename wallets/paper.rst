@@ -76,9 +76,9 @@ Tools
 A MarteX paper wallet can be generated in several ways.
 
 - Using the generator at https://martexcoin.org/paperwallet/
-- Using the generator at https://walletgenerator.net/?currency=Dash
+- Using the generator at https://walletgenerator.net/?currency=MarteXcoin
 - Offline using the MarteX Paper Wallet source code from GitHub at 
-  https://github.com/dashpay/paper.dash.org/releases/latest
+  https://github.com/martexcoin/paperwallet
 - Offline using the same code which powers both sites, by viewing the
   `GitHub project <https://github.com/MichaelMure/WalletGenerator.net>`_
   or `downloading directly <https://github.com/MichaelMure/WalletGenerator.net/archive/master.zip>`_
@@ -101,7 +101,7 @@ Go to https://martexcoin.org/paperwallet/ in your web browser (or open index.htm
 you downloaded the wallet generator). Select your language and choose
 MarteX as the currency if necessary. The following screen will appear:
 
-.. figure:: img/paper-start.png
+.. figure:: images/paper-start.png
    :width: 400px
 
    The MarteX Paper Wallet Generator at paper.dash.org
@@ -111,12 +111,12 @@ unique. Move our mouse around and/or type random characters into the
 text box until the process reaches 100% and the following screen
 appears:
 
-.. figure:: img/paper-randomness.png
+.. figure:: images/paper-randomness.png
    :width: 400px
 
    Generating randomness for the MarteX Paper Wallet Generator
 
-.. figure:: img/paper-addresses.png
+.. figure:: images/paper-addresses.png
    :width: 400px
 
    A MarteX address and private key generated using MarteX Paper Wallet 
@@ -156,7 +156,7 @@ with "7". A BIP38 format encrypted key can be identified because it
 always begins with "6P". See `here <https://bitcoinpaperwallet.com/bip38
 -password-encrypted-wallets/>`_ to learn more about BIP38.
 
-.. figure:: img/paper-encrypted.png
+.. figure:: images/paper-encrypted.png
    :width: 400px
 
    Encrypted paper wallet generated using MarteX Paper Wallet Generator
@@ -174,7 +174,7 @@ the funds. You can make as many deposits and send as many coins to the
 same address as you’d like. Just make sure you test your wallet with
 small amounts first to learn how it works.
 
-.. figure:: img/paper-block.png
+.. figure:: images/paper-block.png
    :width: 400px
 
    Viewing the balance of the paper wallet using the MarteX Block Explorer at explorer.dash.org
@@ -208,7 +208,7 @@ appear, the information required to access the funds on the public
 address appears under **Private Key WIF**. Copy the Private Key WIF and
 use it in the next step.
 
-.. figure:: img/paper-wif.png
+.. figure:: images/paper-wif.png
    :width: 400px
 
    MarteX Paper Wallet Generator displaying information derived from an
@@ -230,7 +230,7 @@ the following command:
 
   importprivkey <your private key in WIF>
 
-.. figure:: img/paper-import.png
+.. figure:: images/paper-import.png
    :width: 400px
 
    MarteX Core Wallet importing a private key
@@ -242,10 +242,10 @@ imported address will appear in your list of transactions. If you use
 Coin Control, you can also enable or disable the address for spending
 there.
 
-.. image:: img/paper-transaction.png
+.. image:: images/paper-transaction.png
    :width: 400px
 
-.. figure:: img/paper-coin-control.png
+.. figure:: images/paper-coin-control.png
    :width: 400px
 
    Paper wallet address successfully imported into MarteX Core Wallet from
